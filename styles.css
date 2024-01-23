@@ -12,9 +12,9 @@ ul{
     background-color: white;
     display:flex;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-between;
+    
 }
-
 .main{
     margin-left:4px;
     color: purple;
@@ -41,4 +41,19 @@ ul{
     justify-content: space-between;
     gap:8px;
     padding-right:4px;
+    align-items: center;
+}
+.notf{
+    color: white;
+    background-color: purple;
+    border-radius: 20%;
+    padding: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.circle{
+    border-radius: 100%;
+    background-color: purple;
+    width: 30px;
+    height: 30px;
 }
